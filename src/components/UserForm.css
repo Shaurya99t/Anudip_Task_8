@@ -1,0 +1,55 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.success-message {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-group button {
+  position: absolute;
+  right: 5px;
+  top: 38px;
+  padding: 0.4em 0.8em;
+  font-size: 0.8em;
+  background: var(--background-color);
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: var(--secondary-accent);
+}
+
+.preview-card {
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.preview-card h3 {
+  margin-top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}

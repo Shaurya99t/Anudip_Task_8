@@ -1,0 +1,41 @@
+.parent-component, .child-component {
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.parent-component {
+  background: rgba(0,0,0,0.2);
+}
+
+.child-component {
+  background: rgba(0,0,0,0.3);
+  margin-top: 1rem;
+}
+
+.child-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.history-log {
+  background: var(--background-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-height: 150px;
+}
+
+.history-log h4 {
+  margin-top: 0;
+}
+
+.history-log ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.history-log .no-history {
+  color: #aaa;
+}
